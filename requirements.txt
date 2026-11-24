@@ -1,0 +1,17 @@
+# 核心依赖（跑通实体/关系/图谱主流程）
+numpy>=1.26
+pandas>=2.0
+networkx>=3.2
+matplotlib>=3.8
+
+# 神经网络分支（BiLSTM-CRF / BERT）。无 GPU 也可 CPU 运行，约 5 分钟。
+torch>=2.2
+transformers>=4.40
+
+# 可选：Cypher 基准（bench 步骤）
+# kuzu>=0.11
+# 可选：Neo4j 装载
+# neo4j>=5.20
+# 可选：spaCy 管线（无中文模型时自动降级为规则引擎）
+# spacy>=3.7
+# jieba>=0.42

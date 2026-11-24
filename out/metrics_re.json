@@ -1,0 +1,83 @@
+{
+ "spaCy规则": {
+  "n_pred": 37,
+  "fine": {
+   "precision": 0.2432,
+   "recall": 0.125,
+   "f1": 0.1651,
+   "tp": 9,
+   "fp": 28,
+   "fn": 63
+  },
+  "coarse": {
+   "precision": 0.5405,
+   "recall": 0.2941,
+   "f1": 0.381,
+   "tp": 20,
+   "fp": 17,
+   "fn": 48
+  },
+  "coarse_no_coref": {
+   "precision": 0.5405,
+   "recall": 0.339,
+   "f1": 0.4167,
+   "tp": 20,
+   "fp": 17,
+   "fn": 39
+  }
+ },
+ "BERT关系分类": {
+  "n_pred": 15,
+  "fine": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "tp": 0,
+   "fp": 15,
+   "fn": 72
+  },
+  "coarse": {
+   "precision": 0.0667,
+   "recall": 0.0147,
+   "f1": 0.0241,
+   "tp": 1,
+   "fp": 14,
+   "fn": 67
+  },
+  "coarse_no_coref": {
+   "precision": 0.0667,
+   "recall": 0.0169,
+   "f1": 0.027,
+   "tp": 1,
+   "fp": 14,
+   "fn": 58
+  }
+ },
+ "LLM(DeepSeek)": {
+  "n_pred": 77,
+  "fine": {
+   "precision": 0.9595,
+   "recall": 0.9861,
+   "f1": 0.9726,
+   "tp": 71,
+   "fp": 3,
+   "fn": 1
+  },
+  "coarse": {
+   "precision": 0.9714,
+   "recall": 1.0,
+   "f1": 0.9855,
+   "tp": 68,
+   "fp": 2,
+   "fn": 0
+  },
+  "coarse_no_coref": {
+   "precision": 0.8429,
+   "recall": 1.0,
+   "f1": 0.9147,
+   "tp": 59,
+   "fp": 11,
+   "fn": 0
+  }
+ }
+}

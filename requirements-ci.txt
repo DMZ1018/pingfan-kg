@@ -1,0 +1,6 @@
+# CI 与轻量环境：不装 torch，只跑词典/NER 基线/规则关系/建图/可视化
+numpy>=1.26
+pandas>=2.0
+networkx>=3.2
+matplotlib>=3.8
+pytest>=8.0

@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "source": "《平凡的世界》三部梗概（三幅图片转写）",
+  "n_entities": 80,
+  "n_mentions_in_gold": 124,
+  "types": {
+   "PER": "人物",
+   "LOC": "地点",
+   "ORG": "机构",
+   "TIME": "时间",
+   "EVENT": "事件",
+   "POLICY": "政策/运动",
+   "POS": "身份/职务",
+   "NUM": "数量",
+   "DIS": "疾病"
+  }
+ },
+ "entities": [
+  {
+   "eid": "PER_001",
+   "name": "孙少平",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "少平"
+   ],
+   "desc": "小说主人公，贫苦农民家庭出身的青年，高中毕业后当过教师、揽工汉、建筑工人，最终成为煤矿工人",
+   "freq": 11,
+   "first_sid": "P1-S02"
+  },
+  {
+   "eid": "PER_002",
+   "name": "孙少安",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "少安"
+   ],
+   "desc": "孙少平之兄，双水村生产队长，率先推行责任制并经营砖窑致富",
+   "freq": 7,
+   "first_sid": "P1-S05"
+  },
+  {
+   "eid": "PER_003",
+   "name": "田润叶",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "润叶"
+   ],
+   "desc": "田福堂之女，县城教师，后调团地委工作，与孙少安青梅竹马",
+   "freq": 6,
+   "first_sid": "P1-S05"
+  },
+  {
+   "eid": "PER_004",
+   "name": "田晓霞",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "晓霞"
+   ],
+   "desc": "田福军之女，师专毕业后任省报记者，与孙少平相恋，抗洪采访中牺牲",
+   "freq": 5,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "PER_005",
+   "name": "田福堂",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "双水村党支部书记，田润叶、田润生之父，抵制责任制",
+   "freq": 5,
+   "first_sid": "P1-S05"
+  },
+  {
+   "eid": "PER_006",
+   "name": "郝红梅",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "地主家庭出身的女孩，孙少平高中同学，后与顾养民恋爱，最终嫁给田润生",
+   "freq": 5,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "PER_007",
+   "name": "田润生",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "润生"
+   ],
+   "desc": "田福堂之子，田润叶之弟，与郝红梅结为夫妻",
+   "freq": 2,
+   "first_sid": "P2-S05"
+  },
+  {
+   "eid": "PER_008",
+   "name": "田福军",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "县革委副主任，田晓霞之父，后任地区领导",
+   "freq": 2,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "PER_009",
+   "name": "秀莲",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "贺秀莲"
+   ],
+   "desc": "山西女子，孙少安的妻子，勤劳善良，后确诊肺癌",
+   "freq": 2,
+   "first_sid": "P1-S06"
+  },
+  {
+   "eid": "PER_010",
+   "name": "侯玉英",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "孙少平同班同学，当众说破孙少平与郝红梅的关系",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "PER_011",
+   "name": "李向前",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "田润叶的丈夫，司机，因酒驾致残",
+   "freq": 1,
+   "first_sid": "P1-S06"
+  },
+  {
+   "eid": "PER_012",
+   "name": "金波",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "孙少平的少时玩伴",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "PER_013",
+   "name": "金波之妹",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [
+    "金波的妹妹"
+   ],
+   "desc": "金波的妹妹，少时玩伴，曾向孙少平表白",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "PER_014",
+   "name": "顾养民",
+   "type": "PER",
+   "type_cn": "人物",
+   "aliases": [],
+   "desc": "家境优越的青年，曾与郝红梅恋爱",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "LOC_015",
+   "name": "家",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少安在家劳动的家",
+   "freq": 6,
+   "first_sid": "P1-S02"
+  },
+  {
+   "eid": "LOC_016",
+   "name": "砖窑",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [
+    "窑"
+   ],
+   "desc": "孙少安经营烧砖的窑场",
+   "freq": 3,
+   "first_sid": "P2-S02"
+  },
+  {
+   "eid": "LOC_017",
+   "name": "全村",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "双水村全村",
+   "freq": 2,
+   "first_sid": "P2-S06"
+  },
+  {
+   "eid": "LOC_018",
+   "name": "城",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少安进城拉砖的城市",
+   "freq": 2,
+   "first_sid": "P1-S04"
+  },
+  {
+   "eid": "LOC_019",
+   "name": "外面",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少平闯荡的外部世界",
+   "freq": 2,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "LOC_020",
+   "name": "煤矿",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少平工作生活的矿山",
+   "freq": 2,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "LOC_021",
+   "name": "上游",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "抢水河段的上游",
+   "freq": 1,
+   "first_sid": "P1-S07"
+  },
+  {
+   "eid": "LOC_022",
+   "name": "农村",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "旱灾发生的乡村地区",
+   "freq": 1,
+   "first_sid": "P1-S07"
+  },
+  {
+   "eid": "LOC_023",
+   "name": "医院",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少平受伤后治疗的地方",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "LOC_024",
+   "name": "原西县",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [
+    "原西"
+   ],
+   "desc": "孙少平读高中的县城",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "LOC_025",
+   "name": "县城",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "田润叶任教的地点",
+   "freq": 1,
+   "first_sid": "P1-S04"
+  },
+  {
+   "eid": "LOC_026",
+   "name": "家乡",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少平高中毕业后返回的地方",
+   "freq": 1,
+   "first_sid": "P1-S02"
+  },
+  {
+   "eid": "LOC_027",
+   "name": "山西",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "秀莲的家乡，孙少安到此相亲",
+   "freq": 1,
+   "first_sid": "P1-S06"
+  },
+  {
+   "eid": "LOC_028",
+   "name": "异乡",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "田润生与郝红梅邂逅的地方",
+   "freq": 1,
+   "first_sid": "P2-S05"
+  },
+  {
+   "eid": "LOC_029",
+   "name": "当地",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "孙少安成为建设领头人的地方",
+   "freq": 1,
+   "first_sid": "P3-S03"
+  },
+  {
+   "eid": "LOC_030",
+   "name": "河坝",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "田福堂组织偷挖的水利设施",
+   "freq": 1,
+   "first_sid": "P1-S07"
+  },
+  {
+   "eid": "LOC_031",
+   "name": "矿山",
+   "type": "LOC",
+   "type_cn": "地点",
+   "aliases": [],
+   "desc": "即煤矿，孙少平最终回归的地方",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "ORG_032",
+   "name": "公社",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "人民公社，孙少安成为“冒尖户”的所属单位",
+   "freq": 1,
+   "first_sid": "P2-S02"
+  },
+  {
+   "eid": "ORG_033",
+   "name": "原西县高中",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "孙少平就读的高中",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "ORG_034",
+   "name": "县革委",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "县级革命委员会，田福军任副主任",
+   "freq": 1,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "ORG_035",
+   "name": "团地委",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "田润叶调任工作的共青团地区委员会",
+   "freq": 1,
+   "first_sid": "P2-S04"
+  },
+  {
+   "eid": "ORG_036",
+   "name": "小学",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "孙少安出资一万五千元扩建的小学",
+   "freq": 1,
+   "first_sid": "P3-S04"
+  },
+  {
+   "eid": "ORG_037",
+   "name": "师专",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "田晓霞就读的师范专科学校",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "ORG_038",
+   "name": "支部会",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "田福堂连夜召开的大队党支部会议",
+   "freq": 1,
+   "first_sid": "P2-S01"
+  },
+  {
+   "eid": "ORG_039",
+   "name": "生产队",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "孙少安领导并率先实行责任制的生产组织",
+   "freq": 1,
+   "first_sid": "P2-S01"
+  },
+  {
+   "eid": "ORG_040",
+   "name": "省报",
+   "type": "ORG",
+   "type_cn": "机构",
+   "aliases": [],
+   "desc": "田晓霞毕业后任职的省级报社",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "TIME_041",
+   "name": "1975年初",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "孙少平到原西县高中读书的时间",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "TIME_042",
+   "name": "1979年春",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "十一届三中全会后农村改革起步的时间",
+   "freq": 1,
+   "first_sid": "P2-S01"
+  },
+  {
+   "eid": "TIME_043",
+   "name": "1982年",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "孙少平到煤矿工作的时间",
+   "freq": 1,
+   "first_sid": "P3-S01"
+  },
+  {
+   "eid": "TIME_044",
+   "name": "两年后",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "孙少平与田晓霞相约再会的期限",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "TIME_045",
+   "name": "少时",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "孙少平年少时期",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "TIME_046",
+   "name": "新时期",
+   "type": "TIME",
+   "type_cn": "时间",
+   "aliases": [],
+   "desc": "改革开放新时期",
+   "freq": 1,
+   "first_sid": "P2-S06"
+  },
+  {
+   "eid": "EVENT_047",
+   "name": "事故",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "aliases": [],
+   "desc": "孙少平为救护徒弟而受重伤的煤矿事故",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "EVENT_048",
+   "name": "十一届三中全会",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "aliases": [],
+   "desc": "1978年召开的中共十一届三中全会，改革开放的起点",
+   "freq": 1,
+   "first_sid": "P2-S01"
+  },
+  {
+   "eid": "EVENT_049",
+   "name": "变革",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "aliases": [],
+   "desc": "新时期的农村社会变革",
+   "freq": 1,
+   "first_sid": "P2-S06"
+  },
+  {
+   "eid": "EVENT_050",
+   "name": "抗洪采访",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "aliases": [],
+   "desc": "田晓霞牺牲于其中的抗洪救灾报道任务",
+   "freq": 1,
+   "first_sid": "P3-S02"
+  },
+  {
+   "eid": "EVENT_051",
+   "name": "旱灾",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "aliases": [],
+   "desc": "农村遭遇的自然灾害",
+   "freq": 1,
+   "first_sid": "P1-S07"
+  },
+  {
+   "eid": "POLICY_052",
+   "name": "责任制",
+   "type": "POLICY",
+   "type_cn": "政策/运动",
+   "aliases": [],
+   "desc": "家庭联产承包责任制，孙少安率先实行",
+   "freq": 2,
+   "first_sid": "P2-S01"
+  },
+  {
+   "eid": "POLICY_053",
+   "name": "农业学大寨",
+   "type": "POLICY",
+   "type_cn": "政策/运动",
+   "aliases": [],
+   "desc": "文革后期推行的农业运动，田福堂炸山修田",
+   "freq": 1,
+   "first_sid": "P1-S08"
+  },
+  {
+   "eid": "POS_054",
+   "name": "女儿",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田福堂的女儿，即田润叶",
+   "freq": 4,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "POS_055",
+   "name": "丈夫",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田润叶的丈夫，即李向前",
+   "freq": 3,
+   "first_sid": "P2-S04"
+  },
+  {
+   "eid": "POS_056",
+   "name": "工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平成为的优秀工人",
+   "freq": 3,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "POS_057",
+   "name": "儿子",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田福堂的儿子，即田润生",
+   "freq": 2,
+   "first_sid": "P2-S06"
+  },
+  {
+   "eid": "POS_058",
+   "name": "教师",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平、田润叶担任的职业",
+   "freq": 2,
+   "first_sid": "P1-S02"
+  },
+  {
+   "eid": "POS_059",
+   "name": "冒尖户",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "先富起来的农户称号",
+   "freq": 1,
+   "first_sid": "P2-S02"
+  },
+  {
+   "eid": "POS_060",
+   "name": "农民子弟",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平的出身身份",
+   "freq": 1,
+   "first_sid": "P1-S01"
+  },
+  {
+   "eid": "POS_061",
+   "name": "副主任",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田福军的职务",
+   "freq": 1,
+   "first_sid": "P1-S03"
+  },
+  {
+   "eid": "POS_062",
+   "name": "县长",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "帮助孙少安的人",
+   "freq": 1,
+   "first_sid": "P3-S03"
+  },
+  {
+   "eid": "POS_063",
+   "name": "哥哥",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平的哥哥，即孙少安",
+   "freq": 1,
+   "first_sid": "P1-S04"
+  },
+  {
+   "eid": "POS_064",
+   "name": "妻子",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少安的妻子，即秀莲",
+   "freq": 1,
+   "first_sid": "P3-S04"
+  },
+  {
+   "eid": "POS_065",
+   "name": "学生",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平的身份",
+   "freq": 1,
+   "first_sid": "P3-S01"
+  },
+  {
+   "eid": "POS_066",
+   "name": "建筑工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平做过的职业",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "POS_067",
+   "name": "弟弟",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田润叶的弟弟，即田润生",
+   "freq": 1,
+   "first_sid": "P2-S05"
+  },
+  {
+   "eid": "POS_068",
+   "name": "徒弟",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平在煤矿所带的徒弟",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "POS_069",
+   "name": "技师",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "负责砖窑机器制砖的技术人员",
+   "freq": 1,
+   "first_sid": "P3-S03"
+  },
+  {
+   "eid": "POS_070",
+   "name": "揽工汉",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平初到城市时的临时工身份",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "POS_071",
+   "name": "朋友",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "帮助孙少安的朋友",
+   "freq": 1,
+   "first_sid": "P3-S03"
+  },
+  {
+   "eid": "POS_072",
+   "name": "村支书",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田福堂的职务",
+   "freq": 1,
+   "first_sid": "P1-S04"
+  },
+  {
+   "eid": "POS_073",
+   "name": "灾民",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "被洪水围困的群众",
+   "freq": 1,
+   "first_sid": "P3-S02"
+  },
+  {
+   "eid": "POS_074",
+   "name": "煤矿工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "孙少平最终从事的职业",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "POS_075",
+   "name": "父母",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田润生、田润叶的父母，即田福堂夫妇",
+   "freq": 1,
+   "first_sid": "P3-S05"
+  },
+  {
+   "eid": "POS_076",
+   "name": "记者",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "田晓霞的职业",
+   "freq": 1,
+   "first_sid": "P2-S03"
+  },
+  {
+   "eid": "POS_077",
+   "name": "领头人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "aliases": [],
+   "desc": "社会主义建设带头人",
+   "freq": 1,
+   "first_sid": "P3-S03"
+  },
+  {
+   "eid": "NUM_078",
+   "name": "27岁",
+   "type": "NUM",
+   "type_cn": "数量",
+   "aliases": [],
+   "desc": "孙少平受伤时的年龄",
+   "freq": 1,
+   "first_sid": "P3-S06"
+  },
+  {
+   "eid": "NUM_079",
+   "name": "一万五千元",
+   "type": "NUM",
+   "type_cn": "数量",
+   "aliases": [],
+   "desc": "孙少安出资扩建小学的金额",
+   "freq": 1,
+   "first_sid": "P3-S04"
+  },
+  {
+   "eid": "DIS_080",
+   "name": "肺癌",
+   "type": "DIS",
+   "type_cn": "疾病",
+   "aliases": [],
+   "desc": "秀莲确诊的疾病",
+   "freq": 1,
+   "first_sid": "P3-S04"
+  }
+ ]
+}

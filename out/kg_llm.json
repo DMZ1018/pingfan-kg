@@ -1,0 +1,1012 @@
+{
+ "stats": {
+  "nodes": 52,
+  "edges": 77,
+  "density": 0.0445,
+  "avg_degree": 2.96,
+  "max_degree": 23,
+  "isolated": 0,
+  "n_relation_types": 47,
+  "n_coarse_types": 11,
+  "node_types": {
+   "PER": 14,
+   "LOC": 11,
+   "ORG": 9,
+   "EVENT": 4,
+   "POLICY": 2,
+   "POS": 11,
+   "DIS": 1
+  },
+  "relation_types": {
+   "夫妻": 6,
+   "任职于": 5,
+   "爱慕": 4,
+   "成为": 4,
+   "到": 4,
+   "父亲": 4,
+   "回到": 3,
+   "职务": 3,
+   "同学": 2,
+   "担任": 2,
+   "恋人": 2,
+   "帮助": 2,
+   "反对": 2,
+   "就读于": 1,
+   "朋友": 1,
+   "受伤于": 1,
+   "救助": 1,
+   "拒绝": 1,
+   "兄弟": 1,
+   "青梅竹马": 1,
+   "领导": 1,
+   "实行": 1,
+   "推广": 1,
+   "建": 1,
+   "经营": 1,
+   "属于": 1,
+   "身份": 1,
+   "出资": 1,
+   "毕业": 1,
+   "牺牲于": 1,
+   "介绍": 1,
+   "破坏": 1,
+   "抢水": 1,
+   "推行": 1,
+   "召开": 1,
+   "抵制": 1,
+   "抵触": 1,
+   "承认": 1,
+   "恋爱": 1,
+   "姐弟": 1,
+   "遇见": 1,
+   "父女": 1,
+   "通知": 1,
+   "确诊": 1,
+   "揭发": 1,
+   "兄妹": 1,
+   "发生于": 1
+  },
+  "coarse_types": {
+   "任职": 17,
+   "婚恋": 14,
+   "组织": 11,
+   "空间": 10,
+   "亲属": 8,
+   "支持": 6,
+   "社交": 5,
+   "冲突": 2,
+   "经营": 2,
+   "归属": 1,
+   "事件": 1
+  },
+  "top_nodes": [
+   {
+    "name": "孙少平",
+    "degree": 23
+   },
+   {
+    "name": "孙少安",
+    "degree": 18
+   },
+   {
+    "name": "田福堂",
+    "degree": 14
+   },
+   {
+    "name": "田润叶",
+    "degree": 13
+   },
+   {
+    "name": "田晓霞",
+    "degree": 10
+   },
+   {
+    "name": "郝红梅",
+    "degree": 8
+   },
+   {
+    "name": "田润生",
+    "degree": 5
+   },
+   {
+    "name": "田福军",
+    "degree": 5
+   },
+   {
+    "name": "李向前",
+    "degree": 5
+   },
+   {
+    "name": "秀莲",
+    "degree": 3
+   }
+  ],
+  "components": 2,
+  "largest_component": 50,
+  "avg_clustering": 0.0838,
+  "source": "data/llm/triples.json",
+  "n_triples": 77
+ },
+ "nodes": [
+  {
+   "id": "孙少平",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "小说主人公，贫苦农民家庭出身的青年，高中毕业后当过教师、揽工汉、建筑工人，最终成为煤矿工人",
+   "freq": 11,
+   "eid": "PER_001"
+  },
+  {
+   "id": "孙少安",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "孙少平之兄，双水村生产队长，率先推行责任制并经营砖窑致富",
+   "freq": 7,
+   "eid": "PER_002"
+  },
+  {
+   "id": "田润叶",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "田福堂之女，县城教师，后调团地委工作，与孙少安青梅竹马",
+   "freq": 6,
+   "eid": "PER_003"
+  },
+  {
+   "id": "田晓霞",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "田福军之女，师专毕业后任省报记者，与孙少平相恋，抗洪采访中牺牲",
+   "freq": 5,
+   "eid": "PER_004"
+  },
+  {
+   "id": "田福堂",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "双水村党支部书记，田润叶、田润生之父，抵制责任制",
+   "freq": 5,
+   "eid": "PER_005"
+  },
+  {
+   "id": "郝红梅",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "地主家庭出身的女孩，孙少平高中同学，后与顾养民恋爱，最终嫁给田润生",
+   "freq": 5,
+   "eid": "PER_006"
+  },
+  {
+   "id": "田润生",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "田福堂之子，田润叶之弟，与郝红梅结为夫妻",
+   "freq": 2,
+   "eid": "PER_007"
+  },
+  {
+   "id": "田福军",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "县革委副主任，田晓霞之父，后任地区领导",
+   "freq": 2,
+   "eid": "PER_008"
+  },
+  {
+   "id": "秀莲",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "山西女子，孙少安的妻子，勤劳善良，后确诊肺癌",
+   "freq": 2,
+   "eid": "PER_009"
+  },
+  {
+   "id": "侯玉英",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "孙少平同班同学，当众说破孙少平与郝红梅的关系",
+   "freq": 1,
+   "eid": "PER_010"
+  },
+  {
+   "id": "李向前",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "田润叶的丈夫，司机，因酒驾致残",
+   "freq": 1,
+   "eid": "PER_011"
+  },
+  {
+   "id": "金波",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "孙少平的少时玩伴",
+   "freq": 1,
+   "eid": "PER_012"
+  },
+  {
+   "id": "金波之妹",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "金波的妹妹，少时玩伴，曾向孙少平表白",
+   "freq": 1,
+   "eid": "PER_013"
+  },
+  {
+   "id": "顾养民",
+   "type": "PER",
+   "type_cn": "人物",
+   "desc": "家境优越的青年，曾与郝红梅恋爱",
+   "freq": 1,
+   "eid": "PER_014"
+  },
+  {
+   "id": "砖窑",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "孙少安经营烧砖的窑场",
+   "freq": 3,
+   "eid": "LOC_016"
+  },
+  {
+   "id": "城",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "孙少安进城拉砖的城市",
+   "freq": 2,
+   "eid": "LOC_018"
+  },
+  {
+   "id": "煤矿",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "孙少平工作生活的矿山",
+   "freq": 2,
+   "eid": "LOC_020"
+  },
+  {
+   "id": "上游",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "抢水河段的上游",
+   "freq": 1,
+   "eid": "LOC_021"
+  },
+  {
+   "id": "农村",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "旱灾发生的乡村地区",
+   "freq": 1,
+   "eid": "LOC_022"
+  },
+  {
+   "id": "医院",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "孙少平受伤后治疗的地方",
+   "freq": 1,
+   "eid": "LOC_023"
+  },
+  {
+   "id": "县城",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "田润叶任教的地点",
+   "freq": 1,
+   "eid": "LOC_025"
+  },
+  {
+   "id": "家乡",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "孙少平高中毕业后返回的地方",
+   "freq": 1,
+   "eid": "LOC_026"
+  },
+  {
+   "id": "山西",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "秀莲的家乡，孙少安到此相亲",
+   "freq": 1,
+   "eid": "LOC_027"
+  },
+  {
+   "id": "河坝",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "田福堂组织偷挖的水利设施",
+   "freq": 1,
+   "eid": "LOC_030"
+  },
+  {
+   "id": "矿山",
+   "type": "LOC",
+   "type_cn": "地点",
+   "desc": "即煤矿，孙少平最终回归的地方",
+   "freq": 1,
+   "eid": "LOC_031"
+  },
+  {
+   "id": "公社",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "人民公社，孙少安成为“冒尖户”的所属单位",
+   "freq": 1,
+   "eid": "ORG_032"
+  },
+  {
+   "id": "原西县高中",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "孙少平就读的高中",
+   "freq": 1,
+   "eid": "ORG_033"
+  },
+  {
+   "id": "县革委",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "县级革命委员会，田福军任副主任",
+   "freq": 1,
+   "eid": "ORG_034"
+  },
+  {
+   "id": "团地委",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "田润叶调任工作的共青团地区委员会",
+   "freq": 1,
+   "eid": "ORG_035"
+  },
+  {
+   "id": "小学",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "孙少安出资一万五千元扩建的小学",
+   "freq": 1,
+   "eid": "ORG_036"
+  },
+  {
+   "id": "师专",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "田晓霞就读的师范专科学校",
+   "freq": 1,
+   "eid": "ORG_037"
+  },
+  {
+   "id": "支部会",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "田福堂连夜召开的大队党支部会议",
+   "freq": 1,
+   "eid": "ORG_038"
+  },
+  {
+   "id": "生产队",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "孙少安领导并率先实行责任制的生产组织",
+   "freq": 1,
+   "eid": "ORG_039"
+  },
+  {
+   "id": "省报",
+   "type": "ORG",
+   "type_cn": "机构",
+   "desc": "田晓霞毕业后任职的省级报社",
+   "freq": 1,
+   "eid": "ORG_040"
+  },
+  {
+   "id": "事故",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "desc": "孙少平为救护徒弟而受重伤的煤矿事故",
+   "freq": 1,
+   "eid": "EVENT_047"
+  },
+  {
+   "id": "变革",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "desc": "新时期的农村社会变革",
+   "freq": 1,
+   "eid": "EVENT_049"
+  },
+  {
+   "id": "抗洪采访",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "desc": "田晓霞牺牲于其中的抗洪救灾报道任务",
+   "freq": 1,
+   "eid": "EVENT_050"
+  },
+  {
+   "id": "旱灾",
+   "type": "EVENT",
+   "type_cn": "事件",
+   "desc": "农村遭遇的自然灾害",
+   "freq": 1,
+   "eid": "EVENT_051"
+  },
+  {
+   "id": "责任制",
+   "type": "POLICY",
+   "type_cn": "政策/运动",
+   "desc": "家庭联产承包责任制，孙少安率先实行",
+   "freq": 2,
+   "eid": "POLICY_052"
+  },
+  {
+   "id": "农业学大寨",
+   "type": "POLICY",
+   "type_cn": "政策/运动",
+   "desc": "文革后期推行的农业运动，田福堂炸山修田",
+   "freq": 1,
+   "eid": "POLICY_053"
+  },
+  {
+   "id": "工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "孙少平成为的优秀工人",
+   "freq": 3,
+   "eid": "POS_056"
+  },
+  {
+   "id": "教师",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "孙少平、田润叶担任的职业",
+   "freq": 2,
+   "eid": "POS_058"
+  },
+  {
+   "id": "冒尖户",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "先富起来的农户称号",
+   "freq": 1,
+   "eid": "POS_059"
+  },
+  {
+   "id": "副主任",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "田福军的职务",
+   "freq": 1,
+   "eid": "POS_061"
+  },
+  {
+   "id": "县长",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "帮助孙少安的人",
+   "freq": 1,
+   "eid": "POS_062"
+  },
+  {
+   "id": "建筑工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "孙少平做过的职业",
+   "freq": 1,
+   "eid": "POS_066"
+  },
+  {
+   "id": "徒弟",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "孙少平在煤矿所带的徒弟",
+   "freq": 1,
+   "eid": "POS_068"
+  },
+  {
+   "id": "村支书",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "田福堂的职务",
+   "freq": 1,
+   "eid": "POS_072"
+  },
+  {
+   "id": "煤矿工人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "孙少平最终从事的职业",
+   "freq": 1,
+   "eid": "POS_074"
+  },
+  {
+   "id": "记者",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "田晓霞的职业",
+   "freq": 1,
+   "eid": "POS_076"
+  },
+  {
+   "id": "领头人",
+   "type": "POS",
+   "type_cn": "身份/职务",
+   "desc": "社会主义建设带头人",
+   "freq": 1,
+   "eid": "POS_077"
+  },
+  {
+   "id": "肺癌",
+   "type": "DIS",
+   "type_cn": "疾病",
+   "desc": "秀莲确诊的疾病",
+   "freq": 1,
+   "eid": "DIS_080"
+  }
+ ],
+ "links": [
+  {
+   "source": "孙少平",
+   "target": "原西县高中",
+   "rel": "就读于",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "郝红梅",
+   "rel": "爱慕",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少平",
+   "target": "郝红梅",
+   "rel": "同学",
+   "coarse": "社交"
+  },
+  {
+   "source": "孙少平",
+   "target": "侯玉英",
+   "rel": "同学",
+   "coarse": "社交"
+  },
+  {
+   "source": "孙少平",
+   "target": "家乡",
+   "rel": "回到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少平",
+   "target": "教师",
+   "rel": "担任",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "田晓霞",
+   "rel": "朋友",
+   "coarse": "社交"
+  },
+  {
+   "source": "孙少平",
+   "target": "田晓霞",
+   "rel": "恋人",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少平",
+   "target": "田晓霞",
+   "rel": "恋人",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少平",
+   "target": "建筑工人",
+   "rel": "成为",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "煤矿工人",
+   "rel": "成为",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "煤矿",
+   "rel": "到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少平",
+   "target": "煤矿",
+   "rel": "任职于",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "工人",
+   "rel": "成为",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少平",
+   "target": "事故",
+   "rel": "受伤于",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少平",
+   "target": "徒弟",
+   "rel": "救助",
+   "coarse": "支持"
+  },
+  {
+   "source": "孙少平",
+   "target": "金波之妹",
+   "rel": "拒绝",
+   "coarse": "冲突"
+  },
+  {
+   "source": "孙少平",
+   "target": "医院",
+   "rel": "到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少平",
+   "target": "矿山",
+   "rel": "回到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少安",
+   "target": "孙少平",
+   "rel": "兄弟",
+   "coarse": "亲属"
+  },
+  {
+   "source": "孙少安",
+   "target": "田润叶",
+   "rel": "青梅竹马",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少安",
+   "target": "田润叶",
+   "rel": "爱慕",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少安",
+   "target": "山西",
+   "rel": "到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少安",
+   "target": "秀莲",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "孙少安",
+   "target": "生产队",
+   "rel": "领导",
+   "coarse": "组织"
+  },
+  {
+   "source": "孙少安",
+   "target": "责任制",
+   "rel": "实行",
+   "coarse": "组织"
+  },
+  {
+   "source": "孙少安",
+   "target": "责任制",
+   "rel": "推广",
+   "coarse": "组织"
+  },
+  {
+   "source": "孙少安",
+   "target": "城",
+   "rel": "到",
+   "coarse": "空间"
+  },
+  {
+   "source": "孙少安",
+   "target": "砖窑",
+   "rel": "建",
+   "coarse": "经营"
+  },
+  {
+   "source": "孙少安",
+   "target": "砖窑",
+   "rel": "经营",
+   "coarse": "经营"
+  },
+  {
+   "source": "孙少安",
+   "target": "公社",
+   "rel": "属于",
+   "coarse": "归属"
+  },
+  {
+   "source": "孙少安",
+   "target": "冒尖户",
+   "rel": "身份",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少安",
+   "target": "领头人",
+   "rel": "成为",
+   "coarse": "任职"
+  },
+  {
+   "source": "孙少安",
+   "target": "小学",
+   "rel": "出资",
+   "coarse": "支持"
+  },
+  {
+   "source": "田润叶",
+   "target": "田福堂",
+   "rel": "父亲",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田润叶",
+   "target": "县城",
+   "rel": "任职于",
+   "coarse": "任职"
+  },
+  {
+   "source": "田润叶",
+   "target": "教师",
+   "rel": "担任",
+   "coarse": "任职"
+  },
+  {
+   "source": "田润叶",
+   "target": "团地委",
+   "rel": "任职于",
+   "coarse": "任职"
+  },
+  {
+   "source": "田润叶",
+   "target": "李向前",
+   "rel": "回到",
+   "coarse": "空间"
+  },
+  {
+   "source": "田晓霞",
+   "target": "田福军",
+   "rel": "父亲",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田晓霞",
+   "target": "孙少平",
+   "rel": "帮助",
+   "coarse": "支持"
+  },
+  {
+   "source": "田晓霞",
+   "target": "师专",
+   "rel": "毕业",
+   "coarse": "任职"
+  },
+  {
+   "source": "田晓霞",
+   "target": "省报",
+   "rel": "任职于",
+   "coarse": "任职"
+  },
+  {
+   "source": "田晓霞",
+   "target": "记者",
+   "rel": "职务",
+   "coarse": "任职"
+  },
+  {
+   "source": "田晓霞",
+   "target": "抗洪采访",
+   "rel": "牺牲于",
+   "coarse": "空间"
+  },
+  {
+   "source": "田福堂",
+   "target": "村支书",
+   "rel": "职务",
+   "coarse": "任职"
+  },
+  {
+   "source": "田福堂",
+   "target": "孙少安",
+   "rel": "反对",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "田润叶",
+   "rel": "反对",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "田润叶",
+   "rel": "父亲",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田福堂",
+   "target": "李向前",
+   "rel": "介绍",
+   "coarse": "社交"
+  },
+  {
+   "source": "田福堂",
+   "target": "河坝",
+   "rel": "破坏",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "上游",
+   "rel": "抢水",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "农业学大寨",
+   "rel": "推行",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "支部会",
+   "rel": "召开",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "责任制",
+   "rel": "抵制",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "变革",
+   "rel": "抵触",
+   "coarse": "组织"
+  },
+  {
+   "source": "田福堂",
+   "target": "田润生",
+   "rel": "父亲",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田福堂",
+   "target": "郝红梅",
+   "rel": "承认",
+   "coarse": "支持"
+  },
+  {
+   "source": "郝红梅",
+   "target": "顾养民",
+   "rel": "恋爱",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "田润生",
+   "target": "田润叶",
+   "rel": "姐弟",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田润生",
+   "target": "郝红梅",
+   "rel": "遇见",
+   "coarse": "社交"
+  },
+  {
+   "source": "田润生",
+   "target": "郝红梅",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "田润生",
+   "target": "郝红梅",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "田福军",
+   "target": "县革委",
+   "rel": "任职于",
+   "coarse": "任职"
+  },
+  {
+   "source": "田福军",
+   "target": "副主任",
+   "rel": "职务",
+   "coarse": "任职"
+  },
+  {
+   "source": "田福军",
+   "target": "田晓霞",
+   "rel": "父女",
+   "coarse": "亲属"
+  },
+  {
+   "source": "田福军",
+   "target": "孙少平",
+   "rel": "通知",
+   "coarse": "支持"
+  },
+  {
+   "source": "秀莲",
+   "target": "孙少安",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "秀莲",
+   "target": "肺癌",
+   "rel": "确诊",
+   "coarse": "事件"
+  },
+  {
+   "source": "侯玉英",
+   "target": "郝红梅",
+   "rel": "揭发",
+   "coarse": "冲突"
+  },
+  {
+   "source": "李向前",
+   "target": "田润叶",
+   "rel": "爱慕",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "李向前",
+   "target": "田润叶",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "李向前",
+   "target": "田润叶",
+   "rel": "夫妻",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "金波",
+   "target": "金波之妹",
+   "rel": "兄妹",
+   "coarse": "亲属"
+  },
+  {
+   "source": "金波之妹",
+   "target": "孙少平",
+   "rel": "爱慕",
+   "coarse": "婚恋"
+  },
+  {
+   "source": "旱灾",
+   "target": "农村",
+   "rel": "发生于",
+   "coarse": "空间"
+  },
+  {
+   "source": "县长",
+   "target": "孙少安",
+   "rel": "帮助",
+   "coarse": "支持"
+  }
+ ]
+}

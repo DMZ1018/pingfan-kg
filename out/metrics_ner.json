@@ -1,0 +1,567 @@
+{
+ "词典+规则": {
+  "overall": {
+   "precision": 0.9385,
+   "recall": 0.9839,
+   "f1": 0.9606,
+   "tp": 122,
+   "fp": 8,
+   "fn": 2
+  },
+  "by_type": {
+   "PER": {
+    "precision": 1.0,
+    "recall": 0.98,
+    "f1": 0.9899,
+    "tp": 49,
+    "fp": 0,
+    "fn": 1
+   },
+   "LOC": {
+    "precision": 0.7917,
+    "recall": 1.0,
+    "f1": 0.8837,
+    "tp": 19,
+    "fp": 5,
+    "fn": 0
+   },
+   "ORG": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 9,
+    "fp": 0,
+    "fn": 0
+   },
+   "TIME": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+   },
+   "EVENT": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "POLICY": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+   },
+   "POS": {
+    "precision": 0.9032,
+    "recall": 0.9655,
+    "f1": 0.9333,
+    "tp": 28,
+    "fp": 3,
+    "fn": 1
+   },
+   "NUM": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+   },
+   "DIS": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+   }
+  },
+  "by_part": {
+   "P1": {
+    "precision": 0.8696,
+    "recall": 0.9756,
+    "f1": 0.9195,
+    "tp": 40,
+    "fp": 6,
+    "fn": 1
+   },
+   "P2": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 40,
+    "fp": 0,
+    "fn": 0
+   },
+   "P3": {
+    "precision": 0.9545,
+    "recall": 0.9767,
+    "f1": 0.9655,
+    "tp": 42,
+    "fp": 2,
+    "fn": 1
+   }
+  },
+  "boundary_precision": 0.9385,
+  "boundary_recall": 0.9839,
+  "type_accuracy_on_boundary_tp": 1.0
+ },
+ "BiLSTM-CRF": {
+  "overall": {
+   "precision": 0.6486,
+   "recall": 0.3871,
+   "f1": 0.4848,
+   "tp": 48,
+   "fp": 26,
+   "fn": 76
+  },
+  "by_type": {
+   "PER": {
+    "precision": 0.8511,
+    "recall": 0.8,
+    "f1": 0.8247,
+    "tp": 40,
+    "fp": 7,
+    "fn": 10
+   },
+   "LOC": {
+    "precision": 0.2222,
+    "recall": 0.1053,
+    "f1": 0.1429,
+    "tp": 2,
+    "fp": 7,
+    "fn": 17
+   },
+   "ORG": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 9
+   },
+   "TIME": {
+    "precision": 0.6667,
+    "recall": 0.3333,
+    "f1": 0.4444,
+    "tp": 2,
+    "fp": 1,
+    "fn": 4
+   },
+   "EVENT": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 5
+   },
+   "POLICY": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 3
+   },
+   "POS": {
+    "precision": 0.3636,
+    "recall": 0.1379,
+    "f1": 0.2,
+    "tp": 4,
+    "fp": 7,
+    "fn": 25
+   },
+   "NUM": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 2
+   },
+   "DIS": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+   }
+  },
+  "by_part": {
+   "P1": {
+    "precision": 0.7,
+    "recall": 0.5122,
+    "f1": 0.5915,
+    "tp": 21,
+    "fp": 9,
+    "fn": 20
+   },
+   "P2": {
+    "precision": 0.8125,
+    "recall": 0.325,
+    "f1": 0.4643,
+    "tp": 13,
+    "fp": 3,
+    "fn": 27
+   },
+   "P3": {
+    "precision": 0.5,
+    "recall": 0.3256,
+    "f1": 0.3944,
+    "tp": 14,
+    "fp": 14,
+    "fn": 29
+   }
+  },
+  "boundary_precision": 0.6622,
+  "boundary_recall": 0.3952,
+  "type_accuracy_on_boundary_tp": 0.9796
+ },
+ "BiLSTM-CRF+词典": {
+  "overall": {
+   "precision": 0.6598,
+   "recall": 0.5161,
+   "f1": 0.5792,
+   "tp": 64,
+   "fp": 33,
+   "fn": 60
+  },
+  "by_type": {
+   "PER": {
+    "precision": 0.875,
+    "recall": 0.84,
+    "f1": 0.8571,
+    "tp": 42,
+    "fp": 6,
+    "fn": 8
+   },
+   "LOC": {
+    "precision": 0.4,
+    "recall": 0.3158,
+    "f1": 0.3529,
+    "tp": 6,
+    "fp": 9,
+    "fn": 13
+   },
+   "ORG": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 1,
+    "fn": 9
+   },
+   "TIME": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6667,
+    "tp": 3,
+    "fp": 0,
+    "fn": 3
+   },
+   "EVENT": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 5
+   },
+   "POLICY": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 3
+   },
+   "POS": {
+    "precision": 0.4333,
+    "recall": 0.4483,
+    "f1": 0.4407,
+    "tp": 13,
+    "fp": 17,
+    "fn": 16
+   },
+   "NUM": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 2
+   },
+   "DIS": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+   }
+  },
+  "by_part": {
+   "P1": {
+    "precision": 0.7059,
+    "recall": 0.5854,
+    "f1": 0.64,
+    "tp": 24,
+    "fp": 10,
+    "fn": 17
+   },
+   "P2": {
+    "precision": 0.6071,
+    "recall": 0.425,
+    "f1": 0.5,
+    "tp": 17,
+    "fp": 11,
+    "fn": 23
+   },
+   "P3": {
+    "precision": 0.6571,
+    "recall": 0.5349,
+    "f1": 0.5897,
+    "tp": 23,
+    "fp": 12,
+    "fn": 20
+   }
+  },
+  "boundary_precision": 0.8247,
+  "boundary_recall": 0.6452,
+  "type_accuracy_on_boundary_tp": 0.8
+ },
+ "BERT(从头训练)": {
+  "overall": {
+   "precision": 0.3061,
+   "recall": 0.2419,
+   "f1": 0.2703,
+   "tp": 30,
+   "fp": 68,
+   "fn": 94
+  },
+  "by_type": {
+   "PER": {
+    "precision": 0.5909,
+    "recall": 0.52,
+    "f1": 0.5532,
+    "tp": 26,
+    "fp": 18,
+    "fn": 24
+   },
+   "LOC": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 19,
+    "fn": 19
+   },
+   "ORG": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 2,
+    "fn": 9
+   },
+   "TIME": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 4,
+    "fn": 6
+   },
+   "EVENT": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 5
+   },
+   "POLICY": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 3
+   },
+   "POS": {
+    "precision": 0.1538,
+    "recall": 0.1379,
+    "f1": 0.1455,
+    "tp": 4,
+    "fp": 22,
+    "fn": 25
+   },
+   "NUM": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 3,
+    "fn": 2
+   },
+   "DIS": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "tp": 0,
+    "fp": 0,
+    "fn": 1
+   }
+  },
+  "by_part": {
+   "P1": {
+    "precision": 0.3714,
+    "recall": 0.3171,
+    "f1": 0.3421,
+    "tp": 13,
+    "fp": 22,
+    "fn": 28
+   },
+   "P2": {
+    "precision": 0.2069,
+    "recall": 0.15,
+    "f1": 0.1739,
+    "tp": 6,
+    "fp": 23,
+    "fn": 34
+   },
+   "P3": {
+    "precision": 0.3235,
+    "recall": 0.2558,
+    "f1": 0.2857,
+    "tp": 11,
+    "fp": 23,
+    "fn": 32
+   }
+  },
+  "boundary_precision": 0.3163,
+  "boundary_recall": 0.25,
+  "type_accuracy_on_boundary_tp": 0.9677
+ },
+ "LLM(DeepSeek)": {
+  "overall": {
+   "precision": 1.0,
+   "recall": 0.9919,
+   "f1": 0.996,
+   "tp": 123,
+   "fp": 0,
+   "fn": 1
+  },
+  "by_type": {
+   "PER": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 50,
+    "fp": 0,
+    "fn": 0
+   },
+   "LOC": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 19,
+    "fp": 0,
+    "fn": 0
+   },
+   "ORG": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 9,
+    "fp": 0,
+    "fn": 0
+   },
+   "TIME": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 6,
+    "fp": 0,
+    "fn": 0
+   },
+   "EVENT": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5,
+    "fp": 0,
+    "fn": 0
+   },
+   "POLICY": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 3,
+    "fp": 0,
+    "fn": 0
+   },
+   "POS": {
+    "precision": 1.0,
+    "recall": 0.9655,
+    "f1": 0.9825,
+    "tp": 28,
+    "fp": 0,
+    "fn": 1
+   },
+   "NUM": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 2,
+    "fp": 0,
+    "fn": 0
+   },
+   "DIS": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 1,
+    "fp": 0,
+    "fn": 0
+   }
+  },
+  "by_part": {
+   "P1": {
+    "precision": 1.0,
+    "recall": 0.9756,
+    "f1": 0.9877,
+    "tp": 40,
+    "fp": 0,
+    "fn": 1
+   },
+   "P2": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 40,
+    "fp": 0,
+    "fn": 0
+   },
+   "P3": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 43,
+    "fp": 0,
+    "fn": 0
+   }
+  },
+  "boundary_precision": 1.0,
+  "boundary_recall": 0.9919,
+  "type_accuracy_on_boundary_tp": 1.0
+ }
+}
